@@ -122,10 +122,12 @@ ul {
 
 
 /* Chestii */
-h3, p {
+
+/* Pentru footer sa arate frumos */
+.alignOnCenter {
     text-align: center;
 }
 
-body {
+header, body {
     background-color: #282d32;
 }
