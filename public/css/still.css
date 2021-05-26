@@ -1,6 +1,7 @@
 /* ALL */
 * {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* NAV-BAR */
@@ -73,15 +74,23 @@ li a:hover:not(.active) {
   
   .footer-dark .copyright {
     text-align:center;
-    padding-top:24px;
-    opacity:0.3;
+    padding-top:5px;   /* 24 */
+    opacity:0.35;
     font-size:13px;
     margin-bottom:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-
 /* Contact.html */
-input[type=text], select, textarea {
+.formContactUs input, textarea {
+  color:#282d32;
+}
+
+.formContactUs textarea {
+  resize: none;
+}
+
+.formContactUs input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -92,7 +101,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=email], select, textarea {
+.formContactUs input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -103,8 +112,7 @@ input[type=email], select, textarea {
   resize: vertical;
 }
 
-
-input[type=submit] {
+.formContactUs input[type=submit] {
   background-color: #282d32;
   color: white;
   padding: 12px 20px;
@@ -113,7 +121,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.formContactUs input[type=submit]:hover {
   background-color: #2e3033;
 }
 
