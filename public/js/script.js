@@ -1,6 +1,8 @@
 function schimbaContinut(resursa) {
     var xmlhttp;
 
+    console.log("ceva");
+
     if (window.XMLHttpRequest) {
         xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function () {

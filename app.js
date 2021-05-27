@@ -70,7 +70,7 @@ app.post('/verificare-autentificare', (req,res) => {
 				res.cookie("utilizator", listaUseri[i].username);
 
                 if (listaUseri[i].role == "admin") {
-                    res.sendFile(__dirname + '/public/html/adminHome.html');
+                    res.sendFile(__dirname + '/public/html/admin.html');
                 } else {
 				    res.redirect('http://localhost:6789/');
                 }
@@ -85,20 +85,23 @@ app.post('/verificare-autentificare', (req,res) => {
 	})
 });
 
-app.get('/admin', (req,res) => {	
 
-    console.log(req.body);
 
-    /*
-	if (req.session.role == "admin") {
-		res.render('admin',{ session: req.session});
-	} else {
-		res.send("No acces");
-	}
-    */
+/* Partea de AJAX */
 
-    res.render('admin');
+app.get('/admin.html', function(req, res) {
+    res.sendFile(__dirname + '/public/html/admin.html');
 });
+
+app.get('/adminHome.html', function(req, res) {
+    res.sendFile(__dirname + '/public/html/adminHome.html');
+});
+
+app.get('/adminRules.html', function(req, res) {
+    res.sendFile(__dirname + '/public/html/adminRules.html');
+});
+
+/* ************ */
 
 
 app.listen(port, () => console.log(`Serverul rulează la adresa http://localhost:`));
