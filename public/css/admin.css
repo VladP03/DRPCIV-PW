@@ -1,0 +1,36 @@
+body {
+    /* background-color: rgb(26,26,26); */
+    background-image: url("../imagini/AdminBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* NAV-BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }

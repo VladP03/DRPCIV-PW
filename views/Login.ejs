@@ -1,0 +1,20 @@
+<% if (utilizator == "mesajEroare") { %>
+    <h3 style="color:red; text-align: center;"> Username or password incorrect! </h3>
+<% } %>
+
+<form class="formAutentificare" action="/verificare-autentificare" method="POST">
+    <br>
+    <div class="imgcontainer">
+        <img src="/imagini/icons/favicon-icon.png" alt="Avatar" class="avatar">
+    </div>
+
+    <br><br>
+    <label style="text-align: center;"><b>Username</b></label> <br>
+    <input type="text" name="user" placeholder="Utilizator"> <br>
+    
+    <label style="text-align: center;"><b>Password</b></label> <br>
+    <input type="password" name="pass" placeholder="Parola"> <br>
+         
+    <br> <br>
+    <button type="submit">Login</button>
+</form>

@@ -1,29 +1,64 @@
 <!DOCTYPE html>
-
-<meta charset="UTF-8">
 <html lang="ro-RO">
     <head>
-        <title>Proiect 2</title>
+        <title>DRPCIV</title>
 
+        <!-- Pentru diacritice -->
+        <meta charset="UTF-8" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/imagini/icons/favicon-icon.png"/>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/still.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="css/autentificare.css">
+
+        <!-- JavaScript -->
+        <script type="text/javascript" src="js/script.js"> </script>
     </head>
 
     <body>
-        <header>
 
+        <header class="navUl">
+            <img src="/imagini/logo.png">
+
+            <ul class="liFloat">        
+                <li><a href="http://localhost:6789/Home">Home</a></li>
+                <li><a href="http://localhost:6789/about">About</a></li>
+                <li><a href="http://localhost:6789/contact">Contact Us</a></li>
+                <% if (utilizator == null || utilizator == "mesajEroare") { %> 
+                    <li style="float:right"><a href="http://localhost:6789/Login">Login</a></li>
+                <% } else { %>
+                    <li style="float:right"><a href="http://localhost:6789/Logout">Logout</a></li>
+                <% } %>
+            </ul>
         </header>
 
-        <nav>
-            <ul>
 
-            </ul>
-        </nav>
+
 
         <main>
             <%- body %>
         </main>
 
-        <footer>
 
+
+
+        <footer class="footer-dark">
+            <div class="item social">
+                <a href="https://www.facebook.com/vladparaschiv03/"><img src="imagini/icons/fb-icon.png" width="35px"></a>
+                <a href="https://www.instagram.com/vladparaschiv09/"><img src="imagini/icons/insta-icon.png" width="35px"></a>
+                <a href="https://www.linkedin.com/in/vlad-paraschiv-3815881a6/"><img src="imagini/icons/linkedin-icon.png" width="35px"></a>
+            </div>
+
+            <p class="copyright">
+                Paraschiv Vlad - 1306B <br>
+                Proiect DRPCIV <br>
+                Programare WEB © 2021
+            </p>
         </footer>
+
     </body>
+
 </html>

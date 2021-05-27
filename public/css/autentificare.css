@@ -1,0 +1,45 @@
+/* Autentificare.html */
+
+.formAutentificare {
+    color:black;
+  }
+  
+  .formAutentificare label {
+    margin: 0 auto;
+    display: block;
+  }
+  .formAutentificare input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: black;
+    width: 25%;
+  }
+  
+  .formAutentificare button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+  
+  .formAutentificare button:hover {
+    opacity: 0.8;
+  }
+  
+  .formAutentificare .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  .formAutentificare img.avatar {
+    width: 18%;
+    border-radius: 50%;
+  }
+  
