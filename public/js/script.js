@@ -1,3 +1,4 @@
+// ajax
 function schimbaContinut(resursa) {
     var xmlhttp;
 
@@ -14,4 +15,18 @@ function schimbaContinut(resursa) {
 
     xmlhttp.open("GET", resursa + ".html", true);
     xmlhttp.send();
+}
+
+// functia care apeleaza clockAndDate() la fiecare secunda
+function display_ClockAndDate() {
+    var refresh = 1000;     // Refresh rate in milli seconds
+    mytime = setTimeout('clockAndDate()', refresh);
+}
+
+// functia care afiseaza data si ora in format UTCString
+function clockAndDate() {
+    var date = new Date();
+    var date_UTCString = date.toUTCString();
+    document.getElementById("clockAndDate").innerHTML = date_UTCString;
+    display_ClockAndDate();
 }
