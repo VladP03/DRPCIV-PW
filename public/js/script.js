@@ -30,3 +30,23 @@ function clockAndDate() {
     document.getElementById("clockAndDate").innerHTML = date_UTCString;
     display_ClockAndDate();
 }
+
+// functia care afiseaza coordonatele locatiei
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(getCoordinates);
+      } else {
+        if (document.getElementById("location") != null) {
+            document.getElementById("location").innerHTML = "Not supported"
+        }
+      }
+}
+
+function getCoordinates(position) {
+    var currentLatitude = position.coords.latitude;
+    var currentLongitude = position.coords.longitude;
+    
+    if (document.getElementById("location") != null) {
+        document.getElementById("location").innerHTML = "Latitude= " + currentLatitude + ", Longitude= " + currentLongitude;
+    }
+}
