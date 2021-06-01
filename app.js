@@ -85,7 +85,35 @@ app.post('/verificare-autentificare', (req,res) => {
 	})
 });
 
+let listaIntrebari;
+app.get('/chestionar', function(req, res) {
 
+	fs.readFile('intrebari.json', (err, data) => {
+		if (err) throw err;
+		listaIntrebari = JSON.parse(data);
+
+		// în fișierul views/chestionar.ejs este accesibilă variabila 'intrebari' care conține vectorul de întrebări
+		res.render('chestionar', {intrebari: listaIntrebari, utilizator: req.cookies.utilizator});
+	});
+});
+
+app.post('/rezultat-chestionar', (req, res) => {
+
+		if(listaIntrebari) {
+			const respunsuriPrimite = req.body;
+
+			let numarRaspunsuriCorecte = 0;
+	
+			for (let i=0;i<listaIntrebari.length;i++) {
+				const elementKey = i + '_' + listaIntrebari[i].corect;
+				if (respunsuriPrimite[i] == elementKey) {
+					numarRaspunsuriCorecte++;
+				}
+			}
+			
+			res.render("rezultat-chestionar", { 'corecte' : numarRaspunsuriCorecte, 'total' :  listaIntrebari.length, utilizator: req.cookies.utilizator});
+		}
+});
 
 /* Partea de AJAX */
 

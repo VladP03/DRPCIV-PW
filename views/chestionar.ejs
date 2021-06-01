@@ -1,0 +1,13 @@
+<form action="/rezultat-chestionar" method="POST">
+    <% for (var key in intrebari) { %>
+        <h3> <%= intrebari[key].titlu %> </h3>      
+        <% for (var index in intrebari[key].variante) {  %>
+            <input type="radio" name="<%= key %>" value="<%= key + '_' + index %>">
+            <label> <%= intrebari[key].variante[index] %> </label> <br>
+        <% } %>
+        <br>
+    <% } %>
+
+    <br>
+    <input type="submit" value="Submit">
+</form>

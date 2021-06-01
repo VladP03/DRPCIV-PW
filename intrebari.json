@@ -1,0 +1,41 @@
+[
+    {
+        "titlu": "Cum vei proceda la întâlnirea indicatorului „Limitare de viteză 80 km/h”?",
+        "variante": [
+            "nu depășești viteza maximă admisă pe drumurile naționale", 
+            "nu depășești viteza de 80 km/h",
+            "circuli cu o viteză de peste 80 km/h"
+        ],
+        "corect": 1
+    },
+    
+    {
+        "titlu": "În ce situație se poate încălca marcajul longitudinal continuu al axului drumului?",
+        "variante": [
+            "atunci când linia continuă este însoțită de una discontinuă, dispusă către partea conducătorului", 
+            "atunci când este format dintr-o singură linie", 
+            "atunci când drumul este în aliniament, iar vizibilitatea în față este asigurată"
+        ],
+        "corect": 0
+    },
+    
+    {
+        "titlu": "Marcajul longitudinal continuu, aplicat pe axul drumului, permite încălcarea lui:",
+        "variante": [
+            "numai de către conducătorii de motociclete și mopede",
+            "nu, în nicio situație",
+            "numai de către vehiculele cu gabarit depășit"
+        ],	
+        "corect": 1
+    },
+    
+    {
+        "titlu": "Mersul înapoi este interzis:",
+        "variante": [
+            "la mai putin de 100m de trecerile cu calea ferata",
+            "la iesirea din curti, garaje sau ganguri",
+            "pe strazile unde circulatia se desfasoara intr-un singur sens"
+        ],	
+        "corect": 1
+    }
+]
