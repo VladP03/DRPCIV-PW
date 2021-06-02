@@ -37,5 +37,225 @@
             "pe strazile unde circulatia se desfasoara intr-un singur sens"
         ],	
         "corect": 1
+    },
+
+    {
+        "titlu": "Ce tendinţă prezintă un autoturism cu tracţiune pe spate, dacă acceleraţi prea puternic în curbă?",
+        "variante": [
+            "autoturismul urmează, fără deviere, cursa volanului",
+            "autoturismul tinde să derapeze cu spatele spre exteriorul curbei",
+            "roţile din faţă se învârtesc în gol"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "Ce obligaţii are conducătorul de autovehicule când circulă pe un drum public?",
+        "variante": [
+            "să circule numai dacă verificarea medicală lunară este efectuată",
+            "să circule numai pe sectoarele de drum pe care îi este permis accesul şi să respecte normele referitoare la masele totale maxime autorizate admise de autoritatea competentă",
+            "să se informeze din timp, la administratorii de drum, în legătură cu eventualele limite maxime şi minime de viteză"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "Ce se înţelege prin conducere ecologică a unui autovehicul?",
+        "variante": [
+            "obligaţia de a folosi în permanenţă carburant biodegradabil",
+            "deplasări urbane cu bicicleta, pe jos sau cu alte mijloace care nu poluează atmosfera",
+            "un ansamblu de măsuri comportamentale, de control sau de verificare a vehiculului, prin care se realizează o importantă economie de energie şi protecţia mediului"
+        ],	
+        "corect": 2
+    },
+
+    {
+        "titlu": "În rănile cu hemoragie se va avea în vedere, în faza iniţială:",
+        "variante": [
+            "curăţarea şi pansarea rănii",
+            "pansarea rănii",
+            "oprirea hemoragiei"
+        ],	
+        "corect": 2
+    },
+
+    {
+        "titlu": "La semnalul poliţistului situat într-o intersecţie, cu braţul ridicat vertical, aveţi obligaţia:",
+        "variante": [
+            "să circulaţi cu prudenţă maximă",
+            "să reduceţi viteza",
+            "să opriţi, indiferent din ce direcţie circulaţi"
+        ],	
+        "corect": 2
+    },
+
+    {
+        "titlu": "Care este deosebirea dintre oprire şi staţionare?",
+        "variante": [
+            "niciuna",
+            "deosebirea constă în durata de imobilizare a vehiculului",
+            "deosebirea constă în modul de aşezare şi asigurare a autovehiculului pe drum"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "Ce obligaţii vă revin la semnalul agentului de cale ferată de la trecerile la nivel, executat cu un dispozitiv cu lumină roşie ori cu bastonul fluorescent-reflectorizant?",
+        "variante": [
+            "să reduceţi viteza doar până traversaţi calea ferată",
+            "să opriţi autovehiculul",
+            "să reduceţi viteza şi să opriţi numai dacă circulă un vehicul feroviar"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "La apropierea de staţiile prevăzute cu alveolă, când circulaţi pe banda de lângă acostament, iar conducătorul autovehiculului de transport public de persoane semnalizează pornirea din staţie:",
+        "variante": [
+            "opriţi obligatoriu",
+            "reduceţi viteza şi, la nevoie, opriţi",
+            "măriţi viteza"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "Pe o autostradă cu trei benzi, s-a blocat circulaţia. Pe unde vor circula vehiculele de intervenţie?",
+        "variante": [
+            "pe banda de urgenţă",
+            "între banda din stânga şi banda din mijloc",
+            "între banda din dreapta şi banda din mijloc"
+        ],	
+        "corect": 0
+    },
+
+    {
+        "titlu": "Utilizarea sistemului de climatizare are ca efect:",
+        "variante": [
+            "creşterea consumului de combustibil",
+            "reducerea consumului de combustibil",
+            "scăderea puternică a gradului de confort"
+        ],	
+        "corect": 0
+    },
+
+    {
+        "titlu": "Pentru a conduce ecologic un autovehicul, se recomandă:",
+        "variante": [
+            "utilizarea climatizării numai în cazul traseelor scurte",
+            "utilizarea climatizării numai pe timp de noapte",
+            "utilizarea climatizării numai în situaţiile absolut necesare"
+        ],	
+        "corect": 2
+    },
+
+    {
+        "titlu": "Când sunteţi obligat să păstraţi o distanţă corespunzătoare faţă de cel care rulează în faţa dumneavoastră?",
+        "variante": [
+            "numai atunci când nu aveţi experienţă în conducere",
+            "numai dacă autovehiculul pe care îl conduceţi nu are frânele eficiente",
+            "în orice situaţie"
+        ],	
+        "corect": 2
+    },
+
+    {
+        "titlu": "Semnalul poliţistului rutier aflat într-un autovehicul al poliţiei, efectuat cu braţul, cu sau fără baston reflectorizant, scos pe partea laterală dreaptă a vehiculului, semnifică:",
+        "variante": [
+            "oprire pentru conducătorii vehiculelor care circulă în spatele autovehiculului poliţiei",
+            "reducerea vitezei de către cei care circulă în spatele autovehiculului poliţiei",
+            "semnalul se adresează celor care circulă din sens opus"
+        ],	
+        "corect": 0
+    },
+
+    {
+        "titlu": "Copii cu vârste de până la 12 ani pot fi transportaţi:",
+        "variante": [
+            "pe scaunul din faţă al autovehiculului, dacă sunt ţinuţi în braţe de persoane majore",
+            "pe scaunul din faţă al autovehiculului, având fixată centura de siguranţă",
+            "pe bancheta din spate a autovehiculului, având fixată centura de siguranţă, adaptată greutăţii şi dimensiunilor lor"
+        ],	
+        "corect": 2
+    },
+
+    {
+        "titlu": "Dezinfecţia plăgilor ce necesită a fi pansate se face cu:",
+        "variante": [
+            "apă oxigenată sau iod",
+            "ser fiziologic",
+            "apă potabilă"
+        ],	
+        "corect": 0
+    },
+
+    {
+        "titlu": "Cum procedează conducătorul de autovehicul atunci când, apropiindu-se de o trecere la nivel cu calea ferată, prevăzută cu bariere ori semibariere, cele două lumini roşii funcţionează intermitent-alternativ?",
+        "variante": [
+            "continuă deplasarea, dacă barierele nu sunt coborâte",
+            "opreşte, deoarece barierele sunt închise sau urmează să coboare",
+            "continuă deplasarea fără interdicţie, deoarece luminile semnalizează doar prezenţa unei treceri la nivel cu calea ferată"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "In ce situatie este sanctionat conducatorul unui vehicul cu amenda contraventionala si suspendarea dreptului de a conduce autovehicul?",
+        "variante": [
+            "la depasirea cu 20 km/h a vitezei maxime admise",
+            "la depasirea cu mai mult de 30 km/h a vitezei maxime admise",
+            "la depasirea cu mai mult de 50 km/h a vitezei maxime admise"
+        ],	
+        "corect": 2
+    },
+
+    {
+        "titlu": "In care dintre situatiile de mai jos se suspenda exercitarea dreptului de a conduce?",
+        "variante": [
+            "depasirea vitezei maxime admise cu peste 20 km/h",
+            "nerespectarea regulilor privind depasirea",
+            "nefolosirea luminilor de ceata dupa lasarea serii"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "In care dintre urmatoarele cazuri, pe langa amenda contraventionala, se retine si permisul de conducere?",
+        "variante": [
+            "neoprirea la semnalul persoanelor autorizate din zona de lucrari la drumul public",
+            "nerespectarea semnalelor politistilor la trecerea coloanelor oficiale",
+            "neoprirea la semnalul agentului de cale ferata"
+        ],	
+        "corect": 1
+    },
+
+    {
+        "titlu": "Cum se penalizeaza patrunderea intr-o intersectie dirijata prin semafoare, daca prin aceasta se produce blocarea circulatiei in intersectie?",
+        "variante": [
+            "cu amenda contraventionala si aplicarea punctelor de penalizare",
+            "cu suspendarea exercitarii dreptului de a conduce autovehicule pe o perioada de 30 de zile",
+            "cu amenda contraventionala"
+        ],	
+        "corect": 0
+    },
+
+    {
+        "titlu": "Se aplica puncte de penalizare pentru:",
+        "variante": [
+            "circulatia sau stationarea pe spatiul interzis care separa sensurile de circulatie pe autostrada",
+            "conducerea unui autovehicul cu permisul de conducere deteriorat",
+            "lipsa unui stergator de parbriz"
+        ],	
+        "corect": 0
+    },
+
+    {
+        "titlu": "In care dintre situatii se suspenda exercitarea dreptului de a conduce?",
+        "variante": [
+            "in cazul depasirii in mod repetat, cu mai mult de 20 km/h, a vitezei maxime legale",
+            "in cazul neopririi la semnalul agentului de cale ferata",
+            "in cazul neprezentarii in termin de 24 de ore la unitatea de politie competenta pe raza careia s-a produs un accident cu avarierea vehiculului"
+        ],	
+        "corect": 2
     }
 ]
