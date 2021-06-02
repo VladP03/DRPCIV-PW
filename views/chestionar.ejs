@@ -1,13 +1,17 @@
-<form action="/rezultat-chestionar" method="POST">
+<form class="quiz" action="/rezultat-chestionar" method="POST">
+    <% var numberOfQuestion = 0; %>
     <% for (var key in intrebari) { %>
-        <h3> <%= intrebari[key].titlu %> </h3>      
+        <% numberOfQuestion++; %>
+        <p> <%= numberOfQuestion %>. <%= intrebari[key].titlu %> <p>      
         <% for (var index in intrebari[key].variante) {  %>
-            <input type="radio" name="<%= key %>" value="<%= key + '_' + index %>">
-            <label> <%= intrebari[key].variante[index] %> </label> <br>
+            <label> <%= intrebari[key].variante[index] %><br>
+                <input type="radio" name="<%= key %>" value="<%= key + '_' + index %>">   
+                <span></span>
+            </label> 
         <% } %>
         <br>
     <% } %>
 
     <br>
-    <input type="submit" value="Submit">
+    <button type="submit">Trimite</button>
 </form>

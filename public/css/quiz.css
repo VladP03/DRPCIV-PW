@@ -1,0 +1,69 @@
+  p {
+      padding-left: 10px;
+  }
+  
+  /* container */
+  .quiz label {
+    display:block;
+    margin-bottom:15px;
+    position: relative; /* to contain absolute elements */
+    padding-left:80px; /* free space for custom radio button */
+    cursor: pointer;
+  }
+  /* hide default radio button  */
+  .quiz label input[type=radio] {
+    position: absolute; /* prevent taking any space */
+    /* cross-browser hidingg */
+    opacity: 0;
+    width:0; 
+    height:0;
+  }
+  /* custom radio button */
+  .quiz label span {
+    position: absolute;
+    /* position to the free space in <label> */
+    top:0;
+    left:50px;
+    width:20px; 
+    height:20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    transition: .3s background-color; /* slight transition */
+  }
+  /* the check icon */
+  .quiz label span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+    /* middle */
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#fff;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+  }
+  .quiz label:hover span {
+    background-color: #ccc;
+  }
+
+  .quiz button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+  
+  /**** Here's the trick ***/
+  .quiz label input:checked ~ span {
+    background-color: #2eaadc;
+  }
+  .quiz label input:checked ~ span:after {
+    display:block;
+  }
