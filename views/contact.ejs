@@ -1,9 +1,9 @@
-<form >
+<form action="/contact-confirm" method="POST" >
     <div class="formContactUs">
-        <input type="text" placeholder="Prenumele"> <br>
-        <input type="text" placeholder="Numele"> <br>
-        <input type="email" placeholder="Email"> <br>
-        <textarea placeholder="Mesaj" style="height:200px"></textarea>
+        <input type="text" name="prenume" placeholder="Prenumele" required> <br>
+        <input type="text" name="nume" placeholder="Numele" required> <br>
+        <input type="email" name="email" placeholder="Email" required> <br>
+        <textarea name="mesaj" placeholder="Mesaj" style="height:200px" required></textarea>
 
         <br>
         <input type="submit" value="Submit">

@@ -32,12 +32,12 @@ app.get('/home', function(req, res) {
     res.render('home', {utilizator: req.cookies.utilizator});
 });
 
-app.get('/about', function(req, res) {
-    res.render('about', {utilizator: req.cookies.utilizator});
-});
-
 app.get('/contact', function(req, res) {
     res.render('contact', {utilizator: req.cookies.utilizator});
+});
+
+app.post('/contact-confirm', (req, res) => {
+	res.render("contact-confirm", {utilizator: req.cookies.utilizator, body: req.body})
 });
 
 app.get('/login', function(req, res) {

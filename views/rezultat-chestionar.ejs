@@ -1,3 +1,6 @@
-<h1>
-    Ai nimerit <%= corecte + '/' + total %> raspunsuri
-</h1>
+<br><br>
+<% if(corecte >= 22) { %>
+    <h1 style="text-align: center; color: green;"> ADMIS cu <%= corecte %> raspunsuri corecte din <%= total %></h1>
+<% } else { %>
+    <h1 style="text-align: center; color:red"> RESPINS cu <%= corecte %> raspunsuri corecte din <%= total %></h1>
+<% } %>
